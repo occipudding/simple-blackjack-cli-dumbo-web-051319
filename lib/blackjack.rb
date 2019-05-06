@@ -48,13 +48,12 @@ def invalid_command
   puts "Invalid input"
 end
 
-=begin
 def runner
   welcome
-  initial_round
-  until total > 21
+  total = initial_round
+  until hit?(total) > 21
     hit?(total)
+    total += hit?(total)
     display_card_total
   end
 end
-=end    
