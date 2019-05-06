@@ -50,7 +50,7 @@ def invalid_command
 end
 
 def runner
-  welcome
-  initial_round
+  #welcome
+  #initial_round
 end
     
