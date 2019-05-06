@@ -18,8 +18,8 @@ def get_user_input
   gets.chomp
 end
 
-def end_game(display_card_total)
-  puts "Sorry, you hit #{display_card_total}. Thanks for playing!"
+def end_game(total)
+  puts "Sorry, you hit #{total}. Thanks for playing!"
 end
 
 def initial_round
@@ -48,11 +48,11 @@ def invalid_command
   puts "Invalid input"
 end
 
-def runner(display_card_total)
+def runner
   welcome
   initial_round
-  until display_card_total > 21
-    hit?(display_card_total)
+  until total > 21
+    hit?(total)
     display_card_total
   end
 end
