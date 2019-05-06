@@ -34,8 +34,12 @@ def hit?(display_card_total)
   prompt_user
   choice = get_user_input
   total = display_card_total
+  if total > 21
+  end_game
+  end
   if choice == 's'
     total = total
+    end_game
   elsif choice == 'h'
     total += deal_card
   else
@@ -50,6 +54,9 @@ def invalid_command
 end
 
 def runner
-  puts "Welcome."
+  welcome
+  initial_round
+  hit
+  
 end
     
