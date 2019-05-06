@@ -50,6 +50,7 @@ end
 
 def runner
   welcome
+  initial_round
   total = initial_round
   prev = 0
   until hit?(total) > 21 || hit(total) ==  prev
