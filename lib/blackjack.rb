@@ -25,7 +25,7 @@ end
 def initial_round
   card1 = deal_card
   card2 = deal_card
-  sum = card1 + card3
+  sum = card1 + card2
   puts "Your cards add up to #{sum}"
   sum
 end
