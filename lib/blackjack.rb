@@ -49,11 +49,11 @@ def invalid_command
 end
 
 def runner
-  #welcome
-  #initial_round
-  #until display_card_total > 21
-  #  hit?(display_card_total)
-  #  display_card_total
-  #end
+  welcome
+  initial_round
+  until display_card_total > 21
+    hit?(display_card_total)
+    display_card_total
+  end
 end
     
