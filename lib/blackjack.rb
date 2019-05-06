@@ -49,11 +49,7 @@ def invalid_command
   puts "Invalid input"
 end
 
-#####################################################
-# get every test to pass before coding runner below #
-#####################################################
-
 def runner
-  # code runner here
+  puts "Welcome."
 end
     
