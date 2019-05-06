@@ -48,7 +48,7 @@ def invalid_command
   puts "Invalid input"
 end
 
-def runner
+def runner(display_card_total)
   welcome
   initial_round
   until display_card_total > 21
