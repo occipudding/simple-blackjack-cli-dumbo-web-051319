@@ -48,6 +48,7 @@ def invalid_command
   puts "Invalid input"
 end
 
+=begin
 def runner
   welcome
   initial_round
@@ -56,4 +57,4 @@ def runner
     display_card_total
   end
 end
-    
+=end    
