@@ -30,7 +30,7 @@ def initial_round
   sum
 end
 
-def hit?(display_card_total)
+def hit?
   prompt_user
   choice = get_user_input
   if choice == 's'
@@ -51,5 +51,9 @@ end
 def runner
   #welcome
   #initial_round
+  #until display_card_total > 21
+  #  hit?
+  #  display_card_total
+  #end
 end
     
